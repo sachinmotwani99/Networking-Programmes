@@ -8,7 +8,7 @@
 #include<arpa/inet.h>
 int main(int argc,char *argv[])
 {
-struct sockaddr_in sin={0};
+  struct sockaddr_in sin={0};
 struct arpreq myarp={{0}}; 
 unsigned char *ptr;
 int sd; sin.sin_family=AF_INET;
