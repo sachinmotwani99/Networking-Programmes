@@ -30,7 +30,6 @@ scanf("%s",buff); send(sd,buff,strlen(buff)+1,0);
 printf("%s\n","File Output :"); 
 recv(sd,file,sizeof(file),0); 
 printf("%s",file);
-}
-return 0;
+}return 0;
 }
  
